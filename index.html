@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>this</title>
+    <script type="module" src="./script.js" defer></script>
+  </head>
+  <body>
+    <h1>this</h1>
+    <div style="width: 200px">
+      <img
+        id="imageIguana"
+        src="/iguanadon.png"
+        alt="Игуанадон"
+        style="width: 100%"
+      />
+      <br />Здоровье:
+      <progress id="hpBar" style="width: 100%"></progress>
+      <br />Сытость:
+      <progress id="satietyBar" style="width: 100%"></progress>
+      <br />
+      <label for="inputAttack">Сила атаки</label>
+      <div style="display: flex">
+        <input
+          type="number"
+          id="inputAttack"
+          placeholder="Сила атаки"
+          value="1000"
+        />
+        <button id="buttonAttack">Атаковать</button>
+      </div>
+      <label for="inputHealth">Регенерация</label>
+      <div style="display: flex">
+        <input
+          type="number"
+          id="inputHealth"
+          placeholder="Сила лечения"
+          value="50"
+        />
+        <button id="buttonHealth">Лечить</button>
+      </div>
+      <label for="buttonSatiety">Голод</label>
+      <div style="display: flex">
+        <input
+          type="number"
+          id="inputSatiety"
+          placeholder="Кол-во еды"
+          value="40"
+        />
+        <button id="buttonSatiety">Кормить</button>
+      </div>
+    </div>
+  </body>
+</html>
